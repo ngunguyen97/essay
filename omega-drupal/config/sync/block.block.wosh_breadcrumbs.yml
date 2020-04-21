@@ -1,0 +1,22 @@
+uuid: 8f8ece4a-871d-42a5-9102-c316d6d667dd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - wosh
+_core:
+  default_config_hash: vQ0Olz3m8gxFFtyy7BIeJOn28--MCqSmS9706TONmXQ
+id: wosh_breadcrumbs
+theme: wosh
+region: breadcrumb
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

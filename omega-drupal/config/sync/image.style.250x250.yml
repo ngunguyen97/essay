@@ -1,0 +1,17 @@
+uuid: 7ea3d469-0fa1-4486-81b4-7422151be767
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rChihDnk2eH7aXqoageVVrF-QSyAgT8_937jLIifWKk
+name: 250x250
+label: 250x250
+effects:
+  a39751ab-7136-44ca-bc66-568a411aa777:
+    uuid: a39751ab-7136-44ca-bc66-568a411aa777
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 250
+      height: 250
+      anchor: center-center

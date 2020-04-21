@@ -1,0 +1,27 @@
+uuid: b10ef89a-b2fb-4a39-a39a-10e2bdffd4b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - wosh
+_core:
+  default_config_hash: zA39ILojFXPSS3mwavpA43w8fBnZIrDKLbgQ1MpJOP8
+id: wosh_user_account_menu
+theme: wosh
+region: user_account
+weight: -15
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,17 @@
+uuid: 09afcbe1-fe8d-4332-b32e-fbe3c602be63
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: gtNBJ7BzXffL9w8uRGihxbhMitlgq6z1nKjvVKQrOew
+name: 360x480
+label: 360x480
+effects:
+  14257000-98b0-451b-9382-98b04d26189e:
+    uuid: 14257000-98b0-451b-9382-98b04d26189e
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 360
+      height: 480
+      anchor: center-center

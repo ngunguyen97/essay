@@ -1,0 +1,22 @@
+uuid: 7e7f791f-289a-4162-bae8-1958cb7fccaa
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - wosh
+_core:
+  default_config_hash: 7brtlDEn18mUN4-1sdFabRzFnyoJTNNAR7WHKaB6nAo
+id: wosh_help
+theme: wosh
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

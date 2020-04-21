@@ -1,0 +1,17 @@
+uuid: 1c6218b4-6e5d-4335-b19c-59718da81ae1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5F4kT0c8nfInayICqHcVEZdVa8Tmo4bakQkmllu_2MA
+name: 100x100
+label: 100x100
+effects:
+  a14a2999-3717-4953-a859-a1b137f8457a:
+    uuid: a14a2999-3717-4953-a859-a1b137f8457a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 100
+      anchor: center-center
