@@ -1,5 +1,5 @@
-uuid: fe38edbc-7c9b-43d7-b1cf-2ac6ede6fb1c
-langcode: en
+uuid: 3b38deb2-0402-42e6-90cf-29a0deace4af
+langcode: vi
 status: true
 dependencies:
   config:
@@ -27,4 +27,5 @@ content:
   links:
     weight: 101
     region: content
-hidden: {  }
+hidden:
+  langcode: true

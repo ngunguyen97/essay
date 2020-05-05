@@ -1,5 +1,5 @@
-uuid: 775e0436-17f6-4c68-9127-be092039581a
-langcode: en
+uuid: cd0a087d-d3b5-4235-9732-a35c42ddcc21
+langcode: vi
 status: true
 dependencies:
   config:
@@ -21,4 +21,5 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  langcode: true

@@ -1,5 +1,5 @@
-uuid: 3663645a-314a-4953-a209-5a4768bed782
-langcode: en
+uuid: b78fc193-2450-4de0-98ac-c6649756ba86
+langcode: vi
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: vpBH8OmL4sdesCdeZLsW8KOutB5gkbreWJbfjhfFKaQ
 id: comment_delete_action
-label: 'Delete comment'
+label: 'Xóa bài bình luận'
 type: comment
 plugin: 'entity:delete_action:comment'
 configuration: {  }

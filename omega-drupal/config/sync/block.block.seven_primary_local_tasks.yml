@@ -1,5 +1,5 @@
-uuid: 6346abc7-5845-49b8-8783-f5e4ef865004
-langcode: en
+uuid: 6f73bef7-a7cf-48a9-b29e-4af1a27da85c
+langcode: vi
 status: true
 dependencies:
   theme:
@@ -14,7 +14,7 @@ provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: 'Primary tabs'
+  label: 'Tab chính'
   provider: core
   label_display: '0'
   primary: true

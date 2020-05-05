@@ -1,5 +1,5 @@
-uuid: 60abe2ca-ff96-4c16-a009-c1f9ae590260
-langcode: en
+uuid: da01629e-27c6-40bc-9bd6-cef5aa77eae1
+langcode: vi
 status: true
 dependencies:
   config:
@@ -31,5 +31,12 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
 hidden: {  }

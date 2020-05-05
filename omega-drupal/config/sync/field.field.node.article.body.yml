@@ -1,5 +1,5 @@
-uuid: bc7ec174-a9f9-4796-8e37-c164919abbd9
-langcode: en
+uuid: e67193cd-1bf2-496d-9ef9-6a6f8ff5a90b
+langcode: vi
 status: true
 dependencies:
   config:
@@ -13,7 +13,7 @@ id: node.article.body
 field_name: body
 entity_type: node
 bundle: article
-label: Body
+label: 'Nội dung'
 description: ''
 required: false
 translatable: true

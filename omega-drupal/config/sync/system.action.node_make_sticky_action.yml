@@ -1,5 +1,5 @@
-uuid: d16823e2-e4c3-4943-b0e6-b08dd9939c27
-langcode: en
+uuid: aa106632-c7b5-459c-9886-bad78e4b7a0c
+langcode: vi
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: sOb26JSy3fGpWkvR0WYN6_hMqj_6d1rvbvrkzp1yya0
 id: node_make_sticky_action
-label: 'Make content sticky'
+label: 'Stick nội dung lên'
 type: node
 plugin: node_make_sticky_action
 configuration: {  }

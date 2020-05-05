@@ -1,5 +1,5 @@
-uuid: 431e4314-dafd-465f-ac6e-f071ef6249d8
-langcode: en
+uuid: 2000ba13-59a2-4722-b105-36cc62e7aec1
+langcode: vi
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_powered_by_block
 settings:
   id: system_powered_by_block
-  label: 'Powered by Drupal'
+  label: 'Sử dụng Drupal'
   provider: system
   label_display: '0'
 visibility: {  }

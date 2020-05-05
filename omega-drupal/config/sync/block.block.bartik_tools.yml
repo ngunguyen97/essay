@@ -1,5 +1,5 @@
-uuid: fad1b89a-a098-4709-8d62-542633e1dfe8
-langcode: en
+uuid: ecbd023f-cc7e-46c8-b734-ec9fd6cd5531
+langcode: vi
 status: true
 dependencies:
   config:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:tools'
 settings:
   id: 'system_menu_block:tools'
-  label: Tools
+  label: 'Các công cụ'
   provider: system
   label_display: visible
   level: 1

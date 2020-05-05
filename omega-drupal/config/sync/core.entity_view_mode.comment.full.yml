@@ -1,5 +1,5 @@
-uuid: 19a03f7a-ad59-4abf-864c-6f42f94dfbc3
-langcode: en
+uuid: c61e79e3-1e85-4679-aa74-da812341bd78
+langcode: vi
 status: false
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: K7eNlfU7NEUajz01wItywZklr2oaPgL6s1_97fmDXLA
 id: comment.full
-label: 'Full comment'
+label: 'Bình luận đầy đủ'
 targetEntityType: comment
 cache: true

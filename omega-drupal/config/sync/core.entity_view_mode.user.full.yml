@@ -1,5 +1,5 @@
-uuid: d53097a3-09f0-4fe7-b4b6-53841b327236
-langcode: en
+uuid: d0af881e-5477-4b4c-aa90-7df6c31cdf4b
+langcode: vi
 status: false
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: mQIF_foYjmnVSr9MpcD4CTaJE_FpO1AyDd_DskztGhM
 id: user.full
-label: 'User account'
+label: 'Tài khoản người dùng'
 targetEntityType: user
 cache: true

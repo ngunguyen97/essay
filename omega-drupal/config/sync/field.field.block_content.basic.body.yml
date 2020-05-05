@@ -1,5 +1,5 @@
-uuid: 7ae2d272-8d78-4173-8939-de1115853752
-langcode: en
+uuid: 6b14a945-d065-4ba8-9035-9429dc5b8bc7
+langcode: vi
 status: true
 dependencies:
   config:
@@ -13,7 +13,7 @@ id: block_content.basic.body
 field_name: body
 entity_type: block_content
 bundle: basic
-label: Body
+label: 'Nội dung'
 description: ''
 required: false
 translatable: true

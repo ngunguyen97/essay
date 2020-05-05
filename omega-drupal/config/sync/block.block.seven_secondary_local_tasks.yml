@@ -1,5 +1,5 @@
-uuid: 3215e1ba-9d87-4a35-bae3-6956a0742d02
-langcode: en
+uuid: 96f85ba3-89a1-4467-b994-6d6d9f8d4bdf
+langcode: vi
 status: true
 dependencies:
   theme:
@@ -14,7 +14,7 @@ provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: 'Secondary tabs'
+  label: 'Thẻ phụ'
   provider: core
   label_display: '0'
   primary: false

@@ -1,5 +1,5 @@
-uuid: 251b7f6f-09d6-4a80-b5ec-edff99343d75
-langcode: en
+uuid: 65e4f766-71ed-45b9-b0b6-3f7322b02de4
+langcode: vi
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: JBptjnfuOMtsdKygklXxoOgeOCTMtQxlkymjnnj-cC0
 id: node_unpromote_action
-label: 'Remove content from front page'
+label: 'Gỡ bỏ nội dung khỏi trang chính'
 type: node
 plugin: node_unpromote_action
 configuration: {  }

@@ -1,5 +1,5 @@
-uuid: fb30a07b-60f5-45aa-9d48-55b47945b9c1
-langcode: en
+uuid: a7c4b372-c981-4144-9b3c-c5f8c2bee247
+langcode: vi
 status: true
 dependencies:
   config:
@@ -35,4 +35,5 @@ content:
     third_party_settings: {  }
     weight: -1
     region: content
-hidden: {  }
+hidden:
+  langcode: true

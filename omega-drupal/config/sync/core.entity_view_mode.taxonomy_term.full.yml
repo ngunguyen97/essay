@@ -1,5 +1,5 @@
-uuid: 1fb78b32-fe44-42eb-b200-71565e7d7e2c
-langcode: en
+uuid: 3d81e918-672e-474a-9ab0-86f5c5219fc7
+langcode: vi
 status: true
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: '-PPKjsNQPvoIDjOuUAvlLocYD976MNjb9Zpgyz5_BWE'
 id: taxonomy_term.full
-label: 'Taxonomy term page'
+label: 'Trang từ liệu'
 targetEntityType: taxonomy_term
 cache: true

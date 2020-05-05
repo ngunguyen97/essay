@@ -1,5 +1,5 @@
-uuid: b4263836-e15e-4323-a346-6e82aa9ce977
-langcode: en
+uuid: 5f194521-c8bb-4acf-b4f8-ff21dfb25977
+langcode: vi
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: LhdsoZPL_pFas2fjaAWue4zvrQ_tEVofLYtcNec-JGM
 id: node_save_action
-label: 'Save content'
+label: 'Lưu nội dung'
 type: node
 plugin: 'entity:save_action:node'
 configuration: {  }

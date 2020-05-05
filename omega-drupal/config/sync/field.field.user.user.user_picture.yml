@@ -1,5 +1,5 @@
-uuid: f1e58daf-83ec-4d27-b25b-7aae5db3d5e1
-langcode: en
+uuid: 535599a4-d1dd-46ab-b393-cfd0ff592b16
+langcode: vi
 status: true
 dependencies:
   config:
@@ -13,7 +13,7 @@ id: user.user.user_picture
 field_name: user_picture
 entity_type: user
 bundle: user
-label: Picture
+label: 'Hình ảnh'
 description: 'Your virtual face or picture.'
 required: false
 translatable: true

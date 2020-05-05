@@ -1,5 +1,5 @@
-uuid: 671a58dd-5366-463e-88d5-99c440256629
-langcode: en
+uuid: daae1254-cec5-4bd3-82f6-faf6433bcfe9
+langcode: vi
 status: false
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: 4tedlMuvQjDOdvHdw86_e-2Rt78aR7TGFMfOK8Ejppg
 id: block_content.full
-label: Full
+label: 'Đầy đủ'
 targetEntityType: block_content
 cache: true

@@ -1,5 +1,5 @@
-uuid: 48091e4d-9e26-4465-bd79-5b69542f353d
-langcode: en
+uuid: 29271dee-c94e-4d2a-891e-da4dadc560f0
+langcode: vi
 status: true
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: flXhTcp55yLcyy7ZLOhPGKGZobZQJdkAFVWV3LseiuI
 id: user.register
-label: Register
+label: 'Đăng ký'
 targetEntityType: user
 cache: true

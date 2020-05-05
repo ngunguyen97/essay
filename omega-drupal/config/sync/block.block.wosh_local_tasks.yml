@@ -1,9 +1,7 @@
-uuid: 7f63acab-5004-4c23-a549-cc1a6054a524
-langcode: en
+uuid: e512d241-da15-4766-82cc-30d5fdb418b7
+langcode: vi
 status: true
 dependencies:
-  module:
-    - system
   theme:
     - wosh
 _core:
@@ -21,9 +19,4 @@ settings:
   label_display: '0'
   primary: true
   secondary: true
-visibility:
-  request_path:
-    id: request_path
-    pages: /user/login
-    negate: true
-    context_mapping: {  }
+visibility: {  }

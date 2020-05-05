@@ -1,13 +1,13 @@
-uuid: 8313289d-aaa7-4d25-ba54-cf837e3bdc9e
-langcode: en
+uuid: d35440a0-8a03-476a-b178-dfcfc75f219e
+langcode: vi
 status: true
 dependencies: {  }
 _core:
   default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
 id: personal
-label: 'Personal contact form'
+label: 'Trang liên hệ cá nhân'
 recipients: {  }
 reply: ''
 weight: 0
-message: 'Your message has been sent.'
+message: 'Thông điệp của bạn đã được gửi đi.'
 redirect: ''

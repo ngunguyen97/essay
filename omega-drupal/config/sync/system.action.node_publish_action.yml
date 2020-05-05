@@ -1,5 +1,5 @@
-uuid: 0402273b-cc61-49b4-a0bc-d1a09a614db5
-langcode: en
+uuid: 5c4184dc-9749-4f0d-81c7-635e2e397419
+langcode: vi
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: 2B9uF8NL5gutNKSdPRAhhAsDWFZZG1PJOBmx0aBGd_0
 id: node_publish_action
-label: 'Publish content'
+label: 'Đăng nội dung'
 type: node
 plugin: 'entity:publish_action:node'
 configuration: {  }

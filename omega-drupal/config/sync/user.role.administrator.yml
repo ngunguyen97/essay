@@ -1,11 +1,11 @@
-uuid: a1c1abab-883a-4e51-bd30-31b93530bcf8
-langcode: en
+uuid: 43c45d48-cb25-4116-87ed-5097b19d64b6
+langcode: vi
 status: true
 dependencies: {  }
 _core:
   default_config_hash: Om6FEO7vZZMkPIbVvfxtdkWerQ2PvQM4sWUd6Q3ZnfI
 id: administrator
-label: Administrator
+label: 'Người quản lý'
 weight: 2
 is_admin: true
 permissions: {  }

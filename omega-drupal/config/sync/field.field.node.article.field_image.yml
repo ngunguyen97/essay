@@ -1,5 +1,5 @@
-uuid: 15c3b411-3190-4c8b-a971-ab1919af9f07
-langcode: en
+uuid: efe038ce-c047-4ab3-96d8-ee5b928d88f6
+langcode: vi
 status: true
 dependencies:
   config:
@@ -13,7 +13,7 @@ id: node.article.field_image
 field_name: field_image
 entity_type: node
 bundle: article
-label: Image
+label: Ảnh
 description: ''
 required: false
 translatable: true

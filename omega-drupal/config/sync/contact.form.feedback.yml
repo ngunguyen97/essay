@@ -1,5 +1,5 @@
-uuid: cb3bd1ac-7ed2-40a9-8e3b-845357daa244
-langcode: en
+uuid: eaa0ff0e-60a6-461f-8f87-857a4f94e4ba
+langcode: vi
 status: true
 dependencies: {  }
 _core:
@@ -10,5 +10,5 @@ recipients:
   - ngu.nguyen@kyanon.digital
 reply: ''
 weight: 0
-message: 'Your message has been sent.'
+message: 'Thông điệp của bạn đã được gửi đi.'
 redirect: ''
