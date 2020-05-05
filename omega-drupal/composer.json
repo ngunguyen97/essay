@@ -19,12 +19,17 @@
         "php": ">=7.0.8",
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
+        "drupal/abookings": "^1.0@beta",
         "drupal/admin_toolbar": "^2.2",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.8.0",
         "drupal/core-composer-scaffold": "^8.8.0",
         "drupal/devel": "^2.1",
+        "drupal/geofield": "^1.13",
+        "drupal/leaflet": "^1.36",
+        "drupal/leaflet_more_maps": "^1.0@alpha",
         "drush/drush": "^9.7.1 | ^10.0.0",
+        "geocoder-php/google-maps-provider": "^4.4",
         "vlucas/phpdotenv": "^4.0",
         "webflo/drupal-finder": "^1.0.0",
         "zaporylie/composer-drupal-optimizations": "^1.0"
@@ -66,9 +71,9 @@
             "drupal/core": "-p2"
         },
         "drupal-scaffold": {
-            "excludes": [
-                "sites/default/default.services.yml"
-            ],
+            "file-mapping": {
+                "[web-root]/sites/development.services.yml": false
+            },
             "locations": {
                 "web-root": "web/"
             }

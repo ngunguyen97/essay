@@ -140,6 +140,14 @@ class ComposerStaticInitb62d5debaab489760979b7fe8950474a
         array (
             'Interop\\Container\\' => 18,
         ),
+        'H' => 
+        array (
+            'Http\\Promise\\' => 13,
+            'Http\\Message\\' => 13,
+            'Http\\Discovery\\' => 15,
+            'Http\\Client\\' => 12,
+            'Http\\Adapter\\Guzzle6\\' => 21,
+        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
@@ -148,6 +156,9 @@ class ComposerStaticInitb62d5debaab489760979b7fe8950474a
             'Grasmash\\YamlExpander\\' => 22,
             'Grasmash\\Expander\\' => 18,
             'Goutte\\' => 7,
+            'Geocoder\\Provider\\GoogleMaps\\' => 29,
+            'Geocoder\\Http\\' => 14,
+            'Geocoder\\' => 9,
         ),
         'E' => 
         array (
@@ -457,6 +468,26 @@ class ComposerStaticInitb62d5debaab489760979b7fe8950474a
         array (
             0 => __DIR__ . '/..' . '/container-interop/container-interop/src/Interop/Container',
         ),
+        'Http\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/promise/src',
+        ),
+        'Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/message-factory/src',
+        ),
+        'Http\\Discovery\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/discovery/src',
+        ),
+        'Http\\Client\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/httplug/src',
+        ),
+        'Http\\Adapter\\Guzzle6\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/guzzle6-adapter/src',
+        ),
         'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
@@ -480,6 +511,18 @@ class ComposerStaticInitb62d5debaab489760979b7fe8950474a
         'Goutte\\' => 
         array (
             0 => __DIR__ . '/..' . '/fabpot/goutte/Goutte',
+        ),
+        'Geocoder\\Provider\\GoogleMaps\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/geocoder-php/google-maps-provider',
+        ),
+        'Geocoder\\Http\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/geocoder-php/common-http',
+        ),
+        'Geocoder\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/willdurand/geocoder',
         ),
         'Egulias\\EmailValidator\\' => 
         array (
@@ -1285,6 +1328,7 @@ class ComposerStaticInitb62d5debaab489760979b7fe8950474a
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
         'TypeError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/TypeError.php',
+        'geoPHP' => __DIR__ . '/..' . '/phayes/geophp/geoPHP.inc',
     );
 
     public static function getInitializer(ClassLoader $loader)

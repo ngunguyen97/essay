@@ -2667,6 +2667,64 @@
         ]
     },
     {
+        "name": "drupal/abookings",
+        "version": "1.0.0-beta2",
+        "version_normalized": "1.0.0.0-beta2",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/abookings.git",
+            "reference": "8.x-1.0-beta2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/abookings-8.x-1.0-beta2.zip",
+            "reference": "8.x-1.0-beta2",
+            "shasum": "2186cf2cb29b054bcbbd75c4c356f2e33904aa2f"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "require-dev": {
+            "drupal/bookable_unit": "*",
+            "drupal/booking": "*",
+            "drupal/season": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-beta2",
+                "datestamp": "1534074180",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "droces",
+                "homepage": "https://www.drupal.org/user/2996575"
+            }
+        ],
+        "description": "Booking system for guest-houses and other accommodation with rooms.",
+        "homepage": "https://www.drupal.org/project/abookings",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/abookings",
+            "issues": "https://www.drupal.org/project/issues/abookings"
+        }
+    },
+    {
         "name": "drupal/admin_toolbar",
         "version": "2.2.0",
         "version_normalized": "2.2.0.0",
@@ -3467,6 +3525,216 @@
         }
     },
     {
+        "name": "drupal/geofield",
+        "version": "1.13.0",
+        "version_normalized": "1.13.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/geofield.git",
+            "reference": "8.x-1.13"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/geofield-8.x-1.13.zip",
+            "reference": "8.x-1.13",
+            "shasum": "e08c1d8aeb95d2ad1babb7c5a019202f02023d65"
+        },
+        "require": {
+            "drupal/core": "^8 || ^9",
+            "phayes/geophp": "^1.2"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "drupal": {
+                "version": "8.x-1.13",
+                "datestamp": "1588276833",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Brandon Morrison",
+                "homepage": "https://www.drupal.org/u/brandonian",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Pablo López",
+                "homepage": "https://www.drupal.org/u/plopesc",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Italo Mairo",
+                "homepage": "https://www.drupal.org/u/itamair",
+                "role": "Maintainer"
+            },
+            {
+                "name": "davidseth",
+                "homepage": "https://www.drupal.org/user/254857"
+            },
+            {
+                "name": "itamair",
+                "homepage": "https://www.drupal.org/user/1179076"
+            },
+            {
+                "name": "phayes",
+                "homepage": "https://www.drupal.org/user/47098"
+            },
+            {
+                "name": "plopesc",
+                "homepage": "https://www.drupal.org/user/282415"
+            },
+            {
+                "name": "zzolo",
+                "homepage": "https://www.drupal.org/user/147331"
+            }
+        ],
+        "description": "Stores geographic and location data (points, lines, and polygons).",
+        "homepage": "https://www.drupal.org/project/geofield",
+        "support": {
+            "source": "https://git.drupalcode.org/project/geofield",
+            "issues": "https://www.drupal.org/project/issues/geofield",
+            "irc": "irc://irc.freenode.org/drupal-contribute"
+        }
+    },
+    {
+        "name": "drupal/leaflet",
+        "version": "1.36.0",
+        "version_normalized": "1.36.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/leaflet.git",
+            "reference": "8.x-1.36"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/leaflet-8.x-1.36.zip",
+            "reference": "8.x-1.36",
+            "shasum": "e214cda64e7141709010ecb80c83ada747345e0d"
+        },
+        "require": {
+            "drupal/core": "^8 || ^9",
+            "drupal/geofield": "^1.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "drupal": {
+                "version": "8.x-1.36",
+                "datestamp": "1587388724",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Italo Mairo",
+                "homepage": "https://www.drupal.org/u/itamair",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Peter Vanhee (pvhee)",
+                "homepage": "https://www.drupal.org/u/pvhee",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Rik de Boer (RdeBoer)",
+                "homepage": "https://www.drupal.org/u/rdeboer",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Gabriel Carleton-Barnes (gcb)",
+                "homepage": "https://www.drupal.org/u/gcb",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Lev Tsypin (levelos)",
+                "homepage": "https://www.drupal.org/u/levelos",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Sean Larkin (seanberto)",
+                "homepage": "https://www.drupal.org/u/seanberto",
+                "role": "Maintainer"
+            }
+        ],
+        "description": "Integration with the Leaflet map scripting library.",
+        "homepage": "https://www.drupal.org/project/leaflet",
+        "support": {
+            "source": "https://git.drupalcode.org/project/leaflet",
+            "issues": "https://www.drupal.org/project/issues/leaflet"
+        }
+    },
+    {
+        "name": "drupal/leaflet_more_maps",
+        "version": "1.0.0-alpha3",
+        "version_normalized": "1.0.0.0-alpha3",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/leaflet_more_maps.git",
+            "reference": "8.x-1.0-alpha3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/leaflet_more_maps-8.x-1.0-alpha3.zip",
+            "reference": "8.x-1.0-alpha3",
+            "shasum": "0aa02138eed25efb6d579b2128bbe47a8b149842"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "require-dev": {
+            "drupal/leaflet": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-alpha3",
+                "datestamp": "1473325739",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Alpha releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "RdeBoer",
+                "homepage": "https://www.drupal.org/user/404007"
+            },
+            {
+                "name": "rachel_norfolk",
+                "homepage": "https://www.drupal.org/user/66273"
+            }
+        ],
+        "description": "Adds a swag of map styles to Leaflet, e.g Thunderforest, Esri, Stamen, Google.",
+        "homepage": "https://www.drupal.org/project/leaflet_more_maps",
+        "support": {
+            "source": "https://git.drupalcode.org/project/leaflet_more_maps"
+        }
+    },
+    {
         "name": "drush/drush",
         "version": "10.2.2",
         "version_normalized": "10.2.2.0",
@@ -3777,6 +4045,128 @@
         "keywords": [
             "scraper"
         ]
+    },
+    {
+        "name": "geocoder-php/common-http",
+        "version": "4.2.0",
+        "version_normalized": "4.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/geocoder-php/php-common-http.git",
+            "reference": "8e666f89d0b87121595ec2f5134a9f54bf4b0cd2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/geocoder-php/php-common-http/zipball/8e666f89d0b87121595ec2f5134a9f54bf4b0cd2",
+            "reference": "8e666f89d0b87121595ec2f5134a9f54bf4b0cd2",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0",
+            "php-http/client-implementation": "^1.0",
+            "php-http/discovery": "^1.4",
+            "php-http/httplug": "^1.0 || ^2.0",
+            "php-http/message-factory": "^1.0.2",
+            "psr/http-message": "^1.0",
+            "psr/http-message-implementation": "^1.0",
+            "willdurand/geocoder": "^4.0"
+        },
+        "require-dev": {
+            "nyholm/psr7": "^0.2.2",
+            "php-http/message": "^1.0",
+            "php-http/mock-client": "^1.0",
+            "phpunit/phpunit": "6.3.*",
+            "symfony/stopwatch": "~2.5"
+        },
+        "time": "2018-11-15T22:27:27+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Geocoder\\Http\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Tobias Nyholm",
+                "email": "tobias.nyholm@gmail.com"
+            }
+        ],
+        "description": "Common files for HTTP based Geocoders",
+        "homepage": "http://geocoder-php.org",
+        "keywords": [
+            "http geocoder"
+        ]
+    },
+    {
+        "name": "geocoder-php/google-maps-provider",
+        "version": "4.4.0",
+        "version_normalized": "4.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/geocoder-php/google-maps-provider.git",
+            "reference": "307ca3590b67d23d0658808bb3615f2be3154eee"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/geocoder-php/google-maps-provider/zipball/307ca3590b67d23d0658808bb3615f2be3154eee",
+            "reference": "307ca3590b67d23d0658808bb3615f2be3154eee",
+            "shasum": ""
+        },
+        "require": {
+            "geocoder-php/common-http": "^4.0",
+            "php": "^7.0",
+            "willdurand/geocoder": "^4.0"
+        },
+        "provide": {
+            "geocoder-php/provider-implementation": "1.0"
+        },
+        "require-dev": {
+            "geocoder-php/provider-integration-tests": "^1.0",
+            "php-http/curl-client": "^1.7",
+            "php-http/message": "^1.0",
+            "phpunit/phpunit": "^6.5 || ^7.5"
+        },
+        "time": "2019-04-26T20:17:17+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Geocoder\\Provider\\GoogleMaps\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "William DURAND",
+                "email": "william.durand1@gmail.com"
+            }
+        ],
+        "description": "Geocoder GoogleMaps adapter",
+        "homepage": "http://geocoder-php.org/Geocoder/"
     },
     {
         "name": "grasmash/expander",
@@ -4980,6 +5370,335 @@
             }
         ],
         "description": "Library for handling version information and constraints"
+    },
+    {
+        "name": "phayes/geophp",
+        "version": "1.2",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phayes/geoPHP.git",
+            "reference": "015404e85b602e0df1f91441f8db0f9e98f7e567"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phayes/geoPHP/zipball/015404e85b602e0df1f91441f8db0f9e98f7e567",
+            "reference": "015404e85b602e0df1f91441f8db0f9e98f7e567",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2014-12-02T06:11:22+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "geoPHP.inc"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2 or New-BSD"
+        ],
+        "authors": [
+            {
+                "name": "Patrick Hayes"
+            }
+        ],
+        "description": "GeoPHP is a open-source native PHP library for doing geometry operations. It is written entirely in PHP and can therefore run on shared hosts. It can read and write a wide variety of formats: WKT (including EWKT), WKB (including EWKB), GeoJSON, KML, GPX, GeoRSS). It works with all Simple-Feature geometries (Point, LineString, Polygon, GeometryCollection etc.) and can be used to get centroids, bounding-boxes, area, and a wide variety of other useful information.",
+        "homepage": "https://github.com/phayes/geoPHP"
+    },
+    {
+        "name": "php-http/discovery",
+        "version": "1.7.4",
+        "version_normalized": "1.7.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-http/discovery.git",
+            "reference": "82dbef649ccffd8e4f22e1953c3a5265992b83c0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-http/discovery/zipball/82dbef649ccffd8e4f22e1953c3a5265992b83c0",
+            "reference": "82dbef649ccffd8e4f22e1953c3a5265992b83c0",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.1"
+        },
+        "conflict": {
+            "nyholm/psr7": "<1.0"
+        },
+        "require-dev": {
+            "akeneo/phpspec-skip-example-extension": "^4.0",
+            "php-http/httplug": "^1.0 || ^2.0",
+            "php-http/message-factory": "^1.0",
+            "phpspec/phpspec": "^5.1",
+            "puli/composer-plugin": "1.0.0-beta10"
+        },
+        "suggest": {
+            "php-http/message": "Allow to use Guzzle, Diactoros or Slim Framework factories",
+            "puli/composer-plugin": "Sets up Puli which is recommended for Discovery to work. Check http://docs.php-http.org/en/latest/discovery.html for more details."
+        },
+        "time": "2020-01-03T11:25:47+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Http\\Discovery\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Márk Sági-Kazár",
+                "email": "mark.sagikazar@gmail.com"
+            }
+        ],
+        "description": "Finds installed HTTPlug implementations and PSR-7 message factories",
+        "homepage": "http://php-http.org",
+        "keywords": [
+            "adapter",
+            "client",
+            "discovery",
+            "factory",
+            "http",
+            "message",
+            "psr7"
+        ]
+    },
+    {
+        "name": "php-http/guzzle6-adapter",
+        "version": "v1.1.1",
+        "version_normalized": "1.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-http/guzzle6-adapter.git",
+            "reference": "a56941f9dc6110409cfcddc91546ee97039277ab"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-http/guzzle6-adapter/zipball/a56941f9dc6110409cfcddc91546ee97039277ab",
+            "reference": "a56941f9dc6110409cfcddc91546ee97039277ab",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/guzzle": "^6.0",
+            "php": ">=5.5.0",
+            "php-http/httplug": "^1.0"
+        },
+        "provide": {
+            "php-http/async-client-implementation": "1.0",
+            "php-http/client-implementation": "1.0"
+        },
+        "require-dev": {
+            "ext-curl": "*",
+            "php-http/adapter-integration-tests": "^0.4"
+        },
+        "time": "2016-05-10T06:13:32+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Http\\Adapter\\Guzzle6\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Márk Sági-Kazár",
+                "email": "mark.sagikazar@gmail.com"
+            },
+            {
+                "name": "David de Boer",
+                "email": "david@ddeboer.nl"
+            }
+        ],
+        "description": "Guzzle 6 HTTP Adapter",
+        "homepage": "http://httplug.io",
+        "keywords": [
+            "Guzzle",
+            "http"
+        ]
+    },
+    {
+        "name": "php-http/httplug",
+        "version": "v1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-http/httplug.git",
+            "reference": "1c6381726c18579c4ca2ef1ec1498fdae8bdf018"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-http/httplug/zipball/1c6381726c18579c4ca2ef1ec1498fdae8bdf018",
+            "reference": "1c6381726c18579c4ca2ef1ec1498fdae8bdf018",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4",
+            "php-http/promise": "^1.0",
+            "psr/http-message": "^1.0"
+        },
+        "require-dev": {
+            "henrikbjorn/phpspec-code-coverage": "^1.0",
+            "phpspec/phpspec": "^2.4"
+        },
+        "time": "2016-08-31T08:30:17+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Http\\Client\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Eric GELOEN",
+                "email": "geloen.eric@gmail.com"
+            },
+            {
+                "name": "Márk Sági-Kazár",
+                "email": "mark.sagikazar@gmail.com"
+            }
+        ],
+        "description": "HTTPlug, the HTTP client abstraction for PHP",
+        "homepage": "http://httplug.io",
+        "keywords": [
+            "client",
+            "http"
+        ]
+    },
+    {
+        "name": "php-http/message-factory",
+        "version": "v1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-http/message-factory.git",
+            "reference": "a478cb11f66a6ac48d8954216cfed9aa06a501a1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-http/message-factory/zipball/a478cb11f66a6ac48d8954216cfed9aa06a501a1",
+            "reference": "a478cb11f66a6ac48d8954216cfed9aa06a501a1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4",
+            "psr/http-message": "^1.0"
+        },
+        "time": "2015-12-19T14:08:53+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Márk Sági-Kazár",
+                "email": "mark.sagikazar@gmail.com"
+            }
+        ],
+        "description": "Factory interfaces for PSR-7 HTTP Message",
+        "homepage": "http://php-http.org",
+        "keywords": [
+            "factory",
+            "http",
+            "message",
+            "stream",
+            "uri"
+        ]
+    },
+    {
+        "name": "php-http/promise",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-http/promise.git",
+            "reference": "dc494cdc9d7160b9a09bd5573272195242ce7980"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-http/promise/zipball/dc494cdc9d7160b9a09bd5573272195242ce7980",
+            "reference": "dc494cdc9d7160b9a09bd5573272195242ce7980",
+            "shasum": ""
+        },
+        "require-dev": {
+            "henrikbjorn/phpspec-code-coverage": "^1.0",
+            "phpspec/phpspec": "^2.4"
+        },
+        "time": "2016-01-26T13:27:02+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Http\\Promise\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Márk Sági-Kazár",
+                "email": "mark.sagikazar@gmail.com"
+            },
+            {
+                "name": "Joel Wurtz",
+                "email": "joel.wurtz@gmail.com"
+            }
+        ],
+        "description": "Promise used for asynchronous HTTP requests",
+        "homepage": "http://httplug.io",
+        "keywords": [
+            "promise"
+        ]
     },
     {
         "name": "phpdocumentor/reflection-common",
@@ -9335,6 +10054,67 @@
             }
         ],
         "description": "A robust cross-platform utility for normalizing, comparing and modifying file paths."
+    },
+    {
+        "name": "willdurand/geocoder",
+        "version": "4.2.2",
+        "version_normalized": "4.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/geocoder-php/php-common.git",
+            "reference": "31bc59626c737871c3d5cc4dc9bc468a7668d0d1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/geocoder-php/php-common/zipball/31bc59626c737871c3d5cc4dc9bc468a7668d0d1",
+            "reference": "31bc59626c737871c3d5cc4dc9bc468a7668d0d1",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0"
+        },
+        "require-dev": {
+            "nyholm/nsa": "^1.1",
+            "phpunit/phpunit": "^6.5 || ^7.5",
+            "symfony/stopwatch": "~2.5"
+        },
+        "suggest": {
+            "symfony/stopwatch": "If you want to use the TimedGeocoder"
+        },
+        "time": "2020-01-22T09:02:24+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Geocoder\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "William Durand",
+                "email": "william.durand1@gmail.com"
+            }
+        ],
+        "description": "Common files for PHP Geocoder",
+        "homepage": "http://geocoder-php.org",
+        "keywords": [
+            "abstraction",
+            "geocoder",
+            "geocoding",
+            "geoip"
+        ]
     },
     {
         "name": "zaporylie/composer-drupal-optimizations",
