@@ -57,6 +57,203 @@ ol, ul {
 .field-label {
 	font-weight: bold;
 }
+.field-content-label {
+  display: inline;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.sidebar-field-price {
+  padding: 0 0 1rem 0;
+}
+
+.sidebar-field-price strong{
+  display: inline;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+}
+.content-location, .content-acreage {
+  display: flex;
+  align-items: center;
+}
+.content-location .ion-compass, .content-acreage .ion-ios-home-outline {
+  margin-right: 10px;
+  font-size: 28px;
+}
+.is-shadow-box-2{
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
+}
+
+span.ion-flash {
+  padding: 0px 6px;
+  border-radius: 50%;
+  background-color: #b4b4b482;
+}
+.room-owner {
+  display: flex;
+  align-items: center;
+}
+.room-owner span.ion-ios-contact-outline{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+.boarding-house-slider {
+  position: relative;
+  right: 50%;
+  left: 50%;
+  width: 100vw;
+  margin-right: -50vw;
+  margin-left: -50vw;
+  background-color: #000;
+}
+.boarding-house-slider .slick-slide {
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
+.boarding-house-slider .slick-slide img {
+  height: 420px;
+}
+.boarding-house-slider .slick-next, .boarding-house-slider .slick-prev{
+  background: rgba(0,0,0,.7);
+  border: none;
+}
+.boarding-house-slider .slick-next{
+  position: absolute;
+  display: block;
+  line-height: 0;
+  font-size: 0;
+  cursor: pointer;
+  color: transparent;
+  top: 50%;
+  right: 100px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 0;
+  outline: none;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 0 7px -4px #000;
+  width: 56px;
+  height: 56px;
+  border-radius: 56px;
+  transition: all .3s ease-in-out;
+  z-index: 1;
+}
+.boarding-house-slider .slick-prev{
+  position: absolute;
+  display: block;
+  line-height: 0;
+  font-size: 0;
+  cursor: pointer;
+  color: transparent;
+  top: 50%;
+  left: 100px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 0;
+  outline: none;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 0 7px -4px #000;
+  width: 56px;
+  height: 56px;
+  border-radius: 56px;
+  transition: all .3s ease-in-out;
+  z-index: 1;
+}
+.slick-prev:before {
+  font-family: "Ionicons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  content: "\f3cf";
+  font-size: 1.4rem;
+  color: #e2dddd;
+}
+.slick-next:before {
+  font-family: "Ionicons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  content: "\f3d1";
+  font-size: 1.4rem;
+  color: #e2dddd;
+}
+.wosh-box-wrapper {
+  background: #fff;
+  box-shadow: 1px 1px 1px 0 rgba(0,0,0,.05);
+  border: none;
+  border-radius: 5px;
+  padding: 1.5rem;
+  font-size: .875rem;
+}
+.title {
+  margin-bottom: 2rem;
+}
+.title h3 {
+  font-size: 1.75rem;
+  margin: 0;
+}
+.checkup__header {
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 1.475rem;
+}
+.is-flex {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+.grow {
+  padding-right: 10%;
+}
+.is-flex .grow {
+  flex: 1;
+}
+.checkup__title {
+  margin-bottom: .5rem;
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+.middle-xs {
+  align-items: center;
+}
+.extra-bold {
+  font-weight: 900;
+}
+.between-xs {
+  justify-content: space-between;
+  -ms-justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+.bold, .coupon__action, .coupon__code {
+  font-weight: 700;
+  display: block;
+}
+.wosh-checkout-section input{
+  box-shadow: inset 0 1px 2px 0 rgba(0,0,0,.15)!important;
+  background-color: rgba(0,0,0,.07)!important
+}
+.wosh-checkout-section input[type="submit"] {
+  background-color: #e42555 !important;
+  color: #ffffff;
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: none !important;
+  font-weight: 500;
+}
 .field-label-inline .field-label {
     display: inline-block;
     float: left;

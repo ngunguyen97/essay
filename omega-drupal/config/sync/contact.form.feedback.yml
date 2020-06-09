@@ -10,5 +10,5 @@ recipients:
   - ngu.nguyen@kyanon.digital
 reply: ''
 weight: 0
-message: 'Thông điệp của bạn đã được gửi đi.'
+message: 'Your message has been sent.'
 redirect: ''

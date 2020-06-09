@@ -41,14 +41,17 @@ function leaflet_more_maps_leaflet_map_info() {
 
   $custom_maps = \Drupal::config('leaflet_more_maps.settings')->get('leaflet_more_maps_custom_maps', array());
 
-  foreach ($custom_maps as $custom_map) {
-    _leaflet_more_maps_assemble_custom_map_info(
-      $custom_map['map-key'],
-      $custom_map['layer-keys'],
-      $map_info, $default_settings,
-      $custom_map['reverse-order']
-    );
+  if(is_array($custom_maps)) {
+    foreach ($custom_maps as $custom_map) {
+      _leaflet_more_maps_assemble_custom_map_info(
+        $custom_map['map-key'],
+        $custom_map['layer-keys'],
+        $map_info, $default_settings,
+        $custom_map['reverse-order']
+      );
+    }
   }
+
   return $map_info;
 }
 

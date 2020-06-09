@@ -9,5 +9,5 @@ label: 'Trang liên hệ cá nhân'
 recipients: {  }
 reply: ''
 weight: 0
-message: 'Thông điệp của bạn đã được gửi đi.'
+message: 'Your message has been sent.'
 redirect: ''

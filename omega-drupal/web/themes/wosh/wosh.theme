@@ -458,3 +458,19 @@ function wosh_form_system_theme_settings_alter(&$form, \Drupal\Core\Form\FormSta
 	);
 	
 }
+function wosh_preprocess_image(&$variables) {
+  $variables['attributes']['class'][] = 'img-thumbnail';
+}
+
+function wosh_preprocess_block(&$variables) {
+//  if($variables['plugin_id'] == 'charts_block') {
+//    dump($variables);
+//   die();
+//  }
+  #$variables['attributes']['class'][] = 'img-thumbnail';
+}
+
+function wosh_theme_suggestions_views_view_alter(array &$suggestions, array $variables) {
+  $suggestions[] = sprintf('views_view__%s', $variables['view']->id());
+  $suggestions[] = sprintf('views_view__%s', $variables['view']->current_display);
+}

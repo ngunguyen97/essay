@@ -151,6 +151,14 @@ $(document).ready(function(){
 		}
 	});
 
+  $('.regular').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    centerMode: true,
+    variableWidth: true
+  });
 });
 
 $(document).ajaxComplete(function(){
@@ -291,3 +299,4 @@ $(window).scroll(function() {
 $(".back-to-top").click(function() {
     $("body, html").animate({scrollTop:0},800);
 });
+

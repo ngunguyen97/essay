@@ -93,7 +93,15 @@ slimscroll:
     assets/lib/jQuery-slimScroll/jquery.slimscroll.min.js: {}
   dependencies:
     - core/jquery
-
+slick:
+  version: VERSION
+  css:
+    theme:
+      assets/lib/slick/slick/slick.css: {}
+  js:
+    assets/lib/slick/slick/slick.min.js: {}
+  dependencies:
+    - core/jquery
 color.preview:
   version: VERSION
   css:
